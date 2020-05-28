@@ -1,0 +1,24 @@
+{
+  "name": "howtowriterestapi",
+  "version": "1.0.0",
+  "description": "implementing restful api with callback, promise and async and await",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "swapnil bamb",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.5.0",
+    "mongoose": "^5.9.16",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "swagger-ui-express": "^4.1.4"
+  }
+}
